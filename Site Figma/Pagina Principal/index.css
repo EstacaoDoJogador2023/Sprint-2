@@ -1,0 +1,403 @@
+body {
+    color: red;
+}
+
+@font-face {
+    font-family: "Poppins Regular", Arial, sans-serif;
+    src: local(Poppins Regular), url(Poppins-Regular.ttf);
+}
+
+#fundo2 {
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    height: 63rem;
+    width: 118, 5rem;
+}
+
+#fundo {
+    height: 100%;
+    width: 100%;
+}
+
+#fundo3 {
+    position: absolute;
+    left: 7rem;
+    top: 8rem;
+    height: 43rem;
+    width: 102rem;
+}
+
+#Logo {
+    position: absolute;
+    width: 179px;
+    height: 80px;
+    left: 74px;
+    top: 45px;
+}
+
+#Logo:hover {
+    cursor: pointer;
+}
+
+#RetanContat {
+    box-sizing: border-box;
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 1750px;
+    top: 60px;
+    border: 2px solid #F3572A;
+    border-radius: 5px;
+}
+
+#RetanContat:hover {
+    cursor: pointer;
+}
+
+#TxtContact {
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 1784px;
+    top: 69px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#TxtContact:hover {
+    cursor: pointer;
+}
+
+#TxtCentral {
+    position: absolute;
+    width: 326px;
+    height: 30px;
+    left: 750px;
+    top: 440px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+#TxtCentral2 {
+    position: absolute;
+    width: 701px;
+    height: 30px;
+    left: 540px;
+    top: 490px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.destaque {
+    color: #F3572A;
+}
+
+.botao {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 4px solid #F3572A;
+    border-radius: 4px;
+    width: 138px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    position: absolute;
+    top: 537px;
+    left: 790px;
+}
+
+.meu-botao:hover {
+    cursor: pointer;
+}
+
+.meu-botao:hover,
+.meu-botao:focus {
+    background-color: #F3572A;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.meu-botao2 {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #F3572A;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1px;
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 1750px;
+    top: 60px;
+}
+
+.meu-botao2:hover {
+    cursor: pointer;
+}
+
+.meu-botao2:hover,
+.meu-botao2:focus {
+    background-color: #F3572A;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+}
+
+.Cadastro {
+    background-color: #F3572A;
+    color: #fff;
+    padding: 10px 20px;
+    border: 4px solid #F3572A;
+    border-radius: 4px;
+    width: 138px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    position: absolute;
+    top: 545px;
+    left: 950px;
+}
+
+.Cadastro:hover {
+    cursor: pointer;
+}
+
+.Cadastro:hover,
+.Cadastro:focus {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.cursor-up-down {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #F3572A;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: cursorUpDown 1s infinite alternate;
+}
+
+@keyframes cursorUpDown {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+#Scroll {
+    position: absolute;
+    width: 5px;
+    height: 120px;
+    left: 935px;
+    top: 700px;
+    background: url(final-goal-scroll.png);
+}
+
+#TxtScroll {
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    left: 880px;
+    top: 840px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+#rectangle {
+    position: absolute;
+    left: 0spx;
+    top: 730px;
+    background: #050A12;
+    border: 80px solid #050A12;
+}
+
+#TxtSobre {
+    position: absolute;
+    width: 139px;
+    height: 42px;
+    left: 90px;
+    top: 1120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+#TxtGrande {
+    position: absolute;
+    width: 656px;
+    height: 360px;
+    left: 90px;
+    top: 1210px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+#JogadorImg {
+    position: absolute;
+    width: 640px;
+    height: 751px;
+    left: 1164px;
+    top: 1103px;
+    background: url(final-goal-about-us-imag3.jpg);
+}
+
+#JogadorVol {
+    position: absolute;
+    width: 550px;
+    height: 370px;
+    left: 300px;
+    top: 1600px;
+    background: url(final-goal-about-us-imag1.jpg);
+}
+
+#Sombra {
+    position: absolute;
+    width: 437px;
+    height: 159px;
+    left: 330px;
+    top: 1920px;
+    background: url(final-goal-about-us-imag2.jpg);
+}
+
+.meu-botao3 {
+    background-color: transparent;
+    color: #fff;
+    padding: 30px 20px;
+    border: 2px solid #F3572A;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1px;
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 100px;
+    top: 1570px;
+}
+
+.meu-botao3:hover {
+    cursor: pointer;
+}
+
+.meu-botao3:hover,
+.meu-botao3:focus {
+    background-color: #F3572A;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+}
+
+#TxtPro {
+    color: #FFF;
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 0px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    left: 800px;
+    top: 2200px;
+    position: absolute;
+}
+
+#TxtPro2 {
+    color: #FFF;
+    font-size: 32px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    line-height: normal;
+    left: 750px;
+    top: 2220px;
+    position: absolute;
+}
+
+.Color {
+    color: #F3572A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Rect1 {
+    position: relative;
+    width: 40rem;
+    height: 500px;
+    left: 200px;
+    top: -4660px;
+}
+
+#Rect2 {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    align-items: center;
+    flex-shrink: 0;
+    left: 780px;
+    top: -5160px;
+}

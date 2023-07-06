@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Pagina de  Login/login.css">
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form method="post" action="php/login.php">
+    <div class='container'>
+
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+
+        <div class='card'>
+            <h1> Bem Vindo! </h1>
+            <p>Entre com sua conta</p>
+
+            <div id='msgError'></div>
+            <div id='msgSuccess'></div>
+
+            <div class="label-float">
+                <input type="email" name="email" id="email" placeholder=" " required>
+                <label id="labelUsuario" for="usuario">Email</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" name="senha" id="senha" placeholder=" " required>
+                <label id="labelSenha" for="senha">Senha</label>
+                <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+
+            </div>
+
+
+            <p><a id="esqueceu" href="#">Esqueceu a senha?</a></p>
+
+
+            <div class='justify-center'>
+                <button type="submit" name="enviar" value="enviar" onclick='entrar()'>Entrar</button>
+            </div>
+
+            <div class='justify-center'>
+                <hr>
+            </div>
+            
+            <br>
+
+            <p> Não tem uma conta?
+                <a href='Cadastro.html'> Cadastre-se </a>
+            </p>
+
+        </div>
+
+
+
+
+    </div>
+</form>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="login.js"></script>
+</body>
+</html>
+
+
+

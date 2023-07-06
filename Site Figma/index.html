@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Pagina Principal/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Figma</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@200&display=swap');
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #F3572A;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        
+        .botao::before {
+            content: "";
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: -100%;
+            transition: 0.3s;
+        }
+        
+        .botao:hover {
+            color: #4CAF50;
+        }
+        
+        .botao:hover::before {
+            left: 0;
+        }
+        
+        body {
+            height: 2000px;
+        }
+    </style>
+    <script>
+    </script>
+</head>
+
+<body>
+    <script src="window.js"></script>
+
+    <div id="fundo2"><img id="fundo" src="Pagina Principal/Vector.png"></div>
+    <div id="fundo3"><img id="fundo" src="Pagina Principal/Final-Goal 3.png"></div>
+    <div id="Logo"><img id="fundo" src="Pagina Principal/final-goal-footer-logo 1.png" width=" 800px"></div>
+    <button class="meu-botao2" onclick="redirecionarEmail()">Contato</button>
+
+    <div id="TxtCentral">Experimente o Momento Emocionante</div>
+    <div id="TxtCentral2">BEM-VINDO AO NOSSO SITE DE <span class="destaque"> BUSCA DE OPORTUNIDADES </span> NO ESPORTE!
+    </div>
+    <button class="botao" onclick="abrirPagina()">Login</button>
+    <script>
+        function abrirPagina() {
+            window.location.href = "login.html";
+        }
+
+        function redirecionarEmail() {
+            window.location.href = "mailto:felipecaio.cf903@gmail.com";
+        }
+    </script>
+    <button class="botao" onclick="abrirPagina2()"> Cadastro</button>
+    <script>
+        function abrirPagina2() {
+            window.location.href = "Cadastro.html";
+        }
+    </script>
+    <div class="cursor-up-down"></div>
+    <div id="Scroll"><img id="fundo" src="Pagina Principal/final-goal-scroll 1.png"></div>
+    <div id="TxtScroll"> Rolar para baixo </div>
+    <div id="Rectangle"><img id="fundo" src="Pagina Principal/Rectangle 6.png"></div>
+    <h1 id="TxtSobre">Sobre nos </h1>
+
+    <div id="TxtGrande"> Nossa plataforma é o seu guia definitivo para explorar um <br> vasto leque de oportunidades no esporte. Com acesso a um <br> extenso banco de dados de competições, programas de <br> treinamento, bolsas de estudo esportivas e muito mais, você <br>        estará sempre informado sobre as últimas novidades e <br> oportunidades disponíveis.<br> Não importa qual seja sua paixão esportiva, estamos <br> comprometidos em conectar você às melhores oportunidades. <br> Nossos recursos abrangem uma ampla
+        gama de esportes, <br> desde os mais populares, como futebol, basquete e tênis, até <br> esportes menos convencionais, como escalada, xadrez e mergulho.</div>
+    <div id="JogadorImg"><img id="fundo" src="Pagina Principal/final-goal-about-us-imag3 1.png"></div>
+    <div id="JogadorVol"><img id="fundo" src="Pagina Principal/final-goal-about-us-imag1 1.png"></div>
+    <div id="Sombra"><img id="fundo" src="Pagina Principal/final-goal-about-us-imag2 1.png"></div>
+    <button class="meu-botao3">Contato</button>
+    <div id="TxtPro"> Professional Player </div>
+    <div id="TxtPro2"> TORNA-SE UM <span class="Color "> JOGAGOR DE FUTEBOL </span> </div>
+    <div id="Rect1"> <img id="Rectan" src="Pagina Principal/Rectangle 8"> </div>
+    <div id="Rect2"> <img id="Rectan2" src="Pagina Principal/Rectangle 8"> </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

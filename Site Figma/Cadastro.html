@@ -1,0 +1,126 @@
+<!--Link do Bootstrap-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina Cadastro/Cadastro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    </a>
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="php/cadastro.php">
+
+        <div class="section">
+            <div class="container">
+                <div class="row full-height justify-content-center">
+                    <div class="col-12 text-center align-self-center py-5">
+                        <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                            <h6 class="mb-0 pb-3"><span>Atleta </span><span>Empresario</span></h6>
+                            <!--*--> <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+                            <label for="reg-log"></label>
+                            <div class="card-3d-wrap mx-auto">
+                                <div class="card-3d-wrapper">
+                                    <div class="card-front">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <h4 class="mb-4 pb-3">Cadastro do Atleta</h4>
+                                                <div class="form-group">
+                                                    <!--Cadastro atleta--> <input type="text" name="nome"
+                                                        class="form-style" placeholder="Nome Completo" id="logemail"
+                                                        autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="date" name="datanasc" class="form-style"
+                                                        placeholder="Data de Nascimento" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="text" name="esportesAtuacao" class="form-style"
+                                                        placeholder="Esportes de atuacao" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="email" name="emailAtleta" class="form-style"
+                                                        placeholder="Endereço Email" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="tel" name="telefoneAtleta" class="form-style"
+                                                        placeholder="Telefone" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="password" name="senha" class="form-style" placeholder="Senha "
+                                                        id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="password" name="senhaconf" class="form-style"
+                                                        placeholder="Confirme a senha" id="logemail" autocomplete="off">
+                                                </div>
+    
+    
+                                                <button type="submit" name="enviar"><a href="#" class="btn mt-4">Cadastrar</a></button>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                           
+                                
+                                    <div class="card-back">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <!--Cadastro empresa-->
+                                                <h4 class="mb-4 pb-3">Cadastro da Empresa</h4>
+                                                <div class="form-group">
+                                                    <input type="text" name="empresa" class="form-style"
+                                                        placeholder="Nome da empresa" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="" name="emailEmpresa" class="form-style"
+                                                        placeholder="Email Comercial" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="tel" name="telefoneEmpresa" class="form-style"
+                                                        placeholder="Telefone Comercial" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="text" name="cnpj" class="form-style"
+                                                        placeholder="Cnpj da empresa" id="logemail" autocomplete="off">
+                                                </div>
+    
+                                                <div class="form-group mt-2">
+                                                    <input type="text" name="patrocinador" class="form-style"
+                                                        placeholder="Pratrocinador" id="logemail" autocomplete="off">
+                                                </div>
+    
+    
+                                                <button type="submit" name="enviar-empresario"><a href="#" class="btn mt-4">Cadastrar</a></button>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+
+</html>
